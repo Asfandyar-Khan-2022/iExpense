@@ -2,7 +2,7 @@
 The application allows the user to enter the cost of items they have purchased in a list.
 The list is split into multiple sections corrisponding with expense type. The user can also
 remove items from the list as they please. The item cost is reflected in the thickness of the font.
-With thicker font correlating to more expense item.
+With thicker font correlating to more expensive item.
 
 # Code structure
 - The code is broken down into multiple view files

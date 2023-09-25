@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 Section("Personal") {
-                    Sec(expenses: expenses, type: "Personal").navigationTitle("test")
+                    Sec(expenses: expenses, type: "Personal")
                 }
                 Section("Business") {
                     Sec(expenses: expenses, type: "Business")

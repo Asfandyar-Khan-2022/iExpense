@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AddView: View {
     @ObservedObject var expenses: Expense
-    @State private var showingAddExpense = false
+    @Environment(\.dismiss) var dismiss
     
     @State private var name = ""
     @State private var type = "Personal"
@@ -28,10 +28,17 @@ struct AddView: View {
                     }
                 }
                 
-                TextField("Amount", value: $amount, format: .currency(code: "USD"))
+                TextField("Amount", value: $amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                     .keyboardType(.decimalPad)
             }
             .navigationTitle("Add new expense")
+            .toolbar {
+                Button("Save") {
+                    let item = ExpenseItem(name: name, type: type, amount: amount)
+                    expenses.items.append(item)
+                    dismiss()
+                }
+            }
         }
     }
 }

@@ -14,6 +14,7 @@
 		63A512422AC1411900F9036E /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A512412AC1411900F9036E /* ExpenseItem.swift */; };
 		63A512442AC1419600F9036E /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A512432AC1419600F9036E /* Expenses.swift */; };
 		63A512462AC14AD900F9036E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A512452AC14AD900F9036E /* AddView.swift */; };
+		63A512482AC17B6D00F9036E /* ExpenseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A512472AC17B6D00F9036E /* ExpenseSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		63A512412AC1411900F9036E /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		63A512432AC1419600F9036E /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		63A512452AC14AD900F9036E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		63A512472AC17B6D00F9036E /* ExpenseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				63A512332AC0FEAE00F9036E /* iExpenseApp.swift */,
 				63A512352AC0FEAE00F9036E /* ContentView.swift */,
+				63A512472AC17B6D00F9036E /* ExpenseSection.swift */,
 				63A512452AC14AD900F9036E /* AddView.swift */,
 				63A512412AC1411900F9036E /* ExpenseItem.swift */,
 				63A512432AC1419600F9036E /* Expenses.swift */,
@@ -150,6 +153,7 @@
 				63A512362AC0FEAE00F9036E /* ContentView.swift in Sources */,
 				63A512462AC14AD900F9036E /* AddView.swift in Sources */,
 				63A512422AC1411900F9036E /* ExpenseItem.swift in Sources */,
+				63A512482AC17B6D00F9036E /* ExpenseSection.swift in Sources */,
 				63A512342AC0FEAE00F9036E /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

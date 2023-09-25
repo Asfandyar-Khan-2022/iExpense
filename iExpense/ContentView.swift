@@ -7,8 +7,12 @@
 
 import SwiftUI
 
-
+/// An expense sheet that shows your spending.
+/// Split to show the areas you have spent in.
+/// The expense and be added or removed.
 struct ContentView: View {
+    
+    /// StateObject is used so that the view is refreshed when Published changes within the class
     @StateObject var expenses = Expense()
     @State private var showingAddExpense = false
     
@@ -36,6 +40,9 @@ struct ContentView: View {
         }
     }
     
+    
+    /// Remove item from list
+    /// - Parameter offsets: Index value of the item to be removed
     func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
     }
